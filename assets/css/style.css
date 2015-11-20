@@ -84,16 +84,16 @@ button:hover{
   width: 200px;
 }
 
-.work p {
+.education p {
   color: #f64747;
   font-family: 'Lato', sans-serif;
 }
 
-.work {
+.education {
   width: 500px;
 }
 
-.work a {
+.education a {
   display: inline-block;
   width: 300px;
 }

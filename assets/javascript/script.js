@@ -24,12 +24,12 @@ $(document).ready (function (){
 //On mouseOut turn back to Experience
 
 $(document).ready (function (){
-  $('.work a').hover(function(){
+  $('.education a').hover(function(){
     //console.log('things');
     //console.log ($(this));
     $(this).html('[ej-oo-key-sh<em>uh</em> n]');
   }, function(){
-    $(this).text('Work');
+    $(this).text('Education');
   });
 });
 
