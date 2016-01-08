@@ -8,15 +8,6 @@ $(document).ready (function (){
   });
 });
 
-$(document).ready (function (){
-  $('.experience a').hover(function(){
-    //console.log('things');
-    //console.log ($(this));
-    $(this).html('[ik-speer-ee-<em>uh</em> ns]')
-  }, function(){
-    $(this).text('Experience');
-  });
-});
 
 //Detect when user hovers over word Experience
 //Set up word we want it to be
@@ -30,6 +21,16 @@ $(document).ready (function (){
     $(this).html('[ej-oo-key-sh<em>uh</em> n]');
   }, function(){
     $(this).text('Education');
+  });
+});
+
+$(document).ready (function (){
+  $('.experience a').hover(function(){
+    //console.log('things');
+    //console.log ($(this));
+    $(this).html('[ik-speer-ee-<em>uh</em> ns]')
+  }, function(){
+    $(this).text('Experience');
   });
 });
 
