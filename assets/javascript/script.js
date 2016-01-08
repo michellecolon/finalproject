@@ -15,10 +15,10 @@ $(document).ready (function (){
 //On mouseOut turn back to Experience
 
 $(document).ready (function (){
-  $('.education a').hover(function(){
+  $('.experience a').hover(function(){
     //console.log('things');
     //console.log ($(this));
-    $(this).html('[ej-oo-key-sh<em>uh</em> n]');
+    $(this).html('[ej-oo-key-sh<em>uh</em> n]')
   }, function(){
     $(this).text('Education');
   });
