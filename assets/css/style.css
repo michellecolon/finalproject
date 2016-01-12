@@ -44,7 +44,7 @@ button:hover{
 
 .heading h3 {
   font-size: 20px;
-  color: #f64747;
+  color: tomato;
 }
 
 .heading p {
@@ -52,7 +52,7 @@ button:hover{
 }
 
 .experience p {
-  color: #f64747;
+  color: tomato;
   font-family: 'Lato', sans-serif;
 }
 
@@ -66,14 +66,19 @@ button:hover{
   width: 250px;
 }
 
+.experience img {
+  width: 25%
+}
+
 .heading h1 {
   display: inline-block;
   width: 800px;
 }
 
 .about p {
-  color: #f64747;
+  color: tomato;
   font-family: 'Lato', sans-serif;
+  width: 500px;
 }
 
 .about {
@@ -86,8 +91,12 @@ button:hover{
   width: 200px;
 }
 
+.about li {
+  color: tomato;
+}
+
 .education p {
-  color: #f64747;
+  color: tomato;
   font-family: 'Lato', sans-serif;
 }
 
@@ -102,7 +111,7 @@ button:hover{
 }
 
 .contact {
-  color: #f64747;
+  color: tomato;
   font-family: 'Lato', sans-serif;
 }
 
@@ -125,7 +134,7 @@ a:hover {
 
 .green {
   color: #00ff00;
-  font-size: 20px !important;
+  /*font-size: 20px !important;*/
 }
 
 .green a:hover {
@@ -134,8 +143,12 @@ a:hover {
 
 ul {
   list-style-type: none;
-  color: #f64747;
+  color: tomato;
   width: 800px;
+}
+
+li {
+   list-style-type: none;
 }
 
 .alternatecontact li {
@@ -147,6 +160,18 @@ ul {
 }
 
 .bold {
+  font-family: 'Lato', sans-serif;
+}
+.wps li a {
+ color: tomato;
+ font-size: 16px;
+}
+
+.wps li {
+  color: #00ff00;
+}
+
+.wps ul {
   font-family: 'Lato', sans-serif;
 }
 
